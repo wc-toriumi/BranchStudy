@@ -1,7 +1,8 @@
 (function() {
   $(function() {
     $("#entry").click(function() {
-      return alert("登録しました");
+      alert("登録しました");
+      return location.href = "search.html";
     });
   });
 
