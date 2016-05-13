@@ -1,0 +1,19 @@
+{
+  "buildPath" : {
+  	"coffee": "htdocs/coffee/**/*.coffee",
+  	"dest":"htdocs/js"
+  },
+  "buildPathSP" : {
+  	"coffee": "htdocs/m/smt/coffee/**/*.coffee",
+  	"dest":"htdocs/m/smt/js/"
+  },
+  "buildPathScss" : {
+  	"scss": ["htdocs/scss/**/*.scss","step/scss/**/*.scss","m/smt/scss/**/*.scss","m/smt/step/scss/**/*.scss","m/smt/reap/scss/**/*.scss","m/smt/scss/reserve/**/*.scss","scss_ph/**/*.scss"],
+  	"dest": ["htdocs/css","./smt/css","./step/css","./m/smt/css","./m/smt/step/css","./m/smt/reap/css","./m/smt/css/reserve","./css_ph"]
+  },
+  "buildPathHaml" : {
+  	"haml": "htdocs/haml/**/*.haml",
+  	"dest":"htdocs/"
+  },
+  "cleanPath" : "htdocs/js/*"
+}
